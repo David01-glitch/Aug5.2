@@ -1,0 +1,14 @@
+{
+  "name": "Lighthouse Explorer",
+  "description": "An independent editorial travel magazine about lighthouses and coastal travel.",
+  "scripts": { "postdeploy": "" },
+  "env": {
+    "SITE_ORIGIN": {
+      "description": "Public origin used to bake canonical tags and sitemap.xml (e.g. https://lighthouseexplorer.com). Leave blank to skip.",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    { "url": "heroku/nodejs" }
+  ]
+}
